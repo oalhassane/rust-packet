@@ -15,11 +15,11 @@
 use std::fmt;
 use std::io::Cursor;
 use byteorder::{ReadBytesExt, WriteBytesExt, BigEndian};
-use hwaddr::HwAddr;
 
 use crate::error::*;
 use crate::packet::{Packet as P, PacketMut as PM, AsPacket, AsPacketMut};
 use crate::ether::Protocol;
+use crate::ether::HwAddr;
 
 /// Ethernet frame parser.
 pub struct Packet<B> {

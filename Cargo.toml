@@ -14,4 +14,3 @@ keywords    = ["packet", "network", "ip", "tcp", "udp"]
 thiserror = "1"
 bitflags  = "1"
 byteorder = "1"
-hwaddr    = "0.1"

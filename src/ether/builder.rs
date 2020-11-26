@@ -14,7 +14,6 @@
 
 use std::io::Cursor;
 use byteorder::{WriteBytesExt, BigEndian};
-use hwaddr::HwAddr;
 
 use crate::error::*;
 use crate::buffer::{self, Buffer};
@@ -22,6 +21,7 @@ use crate::builder::{Builder as Build, Finalization};
 use crate::packet::{AsPacket, AsPacketMut};
 use crate::ether::Packet;
 use crate::ether::Protocol;
+use crate::ether::HwAddr;
 
 /// Ethernet frame builder.
 #[derive(Debug)]

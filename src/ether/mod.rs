@@ -20,3 +20,6 @@ pub use self::packet::Packet;
 
 mod builder;
 pub use self::builder::Builder;
+
+mod hwaddr;
+pub use self::hwaddr::HwAddr;
